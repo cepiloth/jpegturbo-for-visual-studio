@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C57AFF19-04C7-3EA2-9FF4-8A81C194A162}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cjpeg</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\sharedlib\cjpeg.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cjpeg.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cjpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cjpeg.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cjpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cjpeg.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cjpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cjpeg.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cjpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Debug\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/Debug/cjpeg.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/Debug/cjpeg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Release\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/Release/cjpeg.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/Release/cjpeg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\MinSizeRel\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/MinSizeRel/cjpeg.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/MinSizeRel/cjpeg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\RelWithDebInfo\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/RelWithDebInfo/cjpeg.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/RelWithDebInfo/cjpeg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/sharedlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/libjpeg-turbo-master (3)/libjpeg-turbo-master" "-BE:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017" --check-stamp-file "E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/sharedlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/sharedlib/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Templates\MSBuild\nasm.props.in;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\sharedlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/sharedlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/libjpeg-turbo-master (3)/libjpeg-turbo-master" "-BE:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017" --check-stamp-file "E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/sharedlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/sharedlib/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Templates\MSBuild\nasm.props.in;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\sharedlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/sharedlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/libjpeg-turbo-master (3)/libjpeg-turbo-master" "-BE:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017" --check-stamp-file "E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/sharedlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/sharedlib/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Templates\MSBuild\nasm.props.in;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\sharedlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/sharedlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/libjpeg-turbo-master (3)/libjpeg-turbo-master" "-BE:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017" --check-stamp-file "E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2017/sharedlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/sharedlib/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Templates\MSBuild\nasm.props.in;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt;E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\sharedlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\cjpeg.c" />
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\cdjpeg.c" />
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\rdgif.c" />
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\rdppm.c" />
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\rdswitch.c" />
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\rdbmp.c" />
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\rdtarga.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\ZERO_CHECK.vcxproj">
+      <Project>{F6999737-8466-3236-9A4F-9FE985F58828}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\sharedlib\jpeg.vcxproj">
+      <Project>{EEC7275D-9500-3117-9F82-711F6671D2D8}</Project>
+      <Name>jpeg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.13\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

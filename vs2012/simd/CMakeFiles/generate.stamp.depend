@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeASMCompiler.cmake.in
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeASM_NASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeCompilerIdDetection.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeDetermineASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeDetermineASM_NASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeDetermineCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeDetermineCompilerId.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeFindBinUtils.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeTestASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeTestASM_NASMCompiler.cmake
+C:\Program Files\CMake\share\cmake-3.13\Templates\MSBuild\nasm.props.in
+E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/simd/CMakeLists.txt
+E:/libjpeg-turbo-master (3)/libjpeg-turbo-master/vs2012/CMakeFiles/3.13.2/CMakeASM_NASMCompiler.cmake

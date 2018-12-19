@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\djpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\cdjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\rdcolmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\rdswitch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\wrgif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\wrppm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\wrbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\wrtarga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{13849111-DC6A-3FF0-B0B8-4BACE578BBAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

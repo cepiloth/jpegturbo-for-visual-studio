@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jccoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jccolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcdctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jchuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcicc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcomapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcphuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcprepct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jctrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdatadst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdatasrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdcoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdcolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jddctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdhuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdicc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdmerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdphuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdpostct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jfdctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jfdctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jfdctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jidctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jidctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jidctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jidctred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jquant1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jquant2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jmemmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jmemnobs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jaricom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jcarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\jdarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\sharedlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\win\jpeg62-memsrcdst.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\simd.dir\$(Configuration)\jsimd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jsimdcpu.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jfdctflt-3dn.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctflt-3dn.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jquant-3dn.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jccolor-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jcgray-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jcsample-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdcolor-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdmerge-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdsample-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jfdctfst-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jfdctint-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctfst-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctint-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctred-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jquant-mmx.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jfdctflt-sse.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctflt-sse.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jquant-sse.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jccolor-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jcgray-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jchuff-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jcphuff-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jcsample-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdcolor-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdmerge-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdsample-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jfdctfst-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jfdctint-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctflt-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctfst-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctint-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctred-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jquantf-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jquanti-sse2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jccolor-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jcgray-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jcsample-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdcolor-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdmerge-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jdsample-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jfdctint-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jidctint-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\libjpeg-turbo-master (3)\libjpeg-turbo-master\vs2017\simd\$(Configuration)\jquanti-avx2.asm.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{1AEBC1E9-9EC0-3A1F-BADB-6C79AA782B1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{9D72FDFE-1EA5-3E1C-8E8D-13FFA6159706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{13849111-DC6A-3FF0-B0B8-4BACE578BBAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
